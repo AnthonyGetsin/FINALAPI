@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-MODEL_URL = "https://huggingface.co/your-username/your-repo/resolve/main/car_DealScore_423.pkl"
+MODEL_URL = "https://huggingface.co/Rigafpoby/AutoMate/resolve/main/car_DealScore_423.pkl"
 MODEL_PATH = "car_DealScore_423.pkl"
 
 # Download the model if it doesn't exist
